@@ -1,4 +1,4 @@
-import ".//Thankyou.css"
+import "./Thankyou.css"
 function ThabkYou() {
 
 	return (
