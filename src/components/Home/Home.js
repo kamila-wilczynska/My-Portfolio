@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../reusableCoponents/Navbar/Navbar";
 import Hero from "../../reusableCoponents/Hero/Hero"
 import Footer from "../../reusableCoponents/Footer/Footer"
+import AboutContent from "../AboutContent/AboutContent"
 
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
 		<div>
 			<Navbar />
 			<Hero />
+			<AboutContent/>
 			<Footer />
 		</div>
 	)

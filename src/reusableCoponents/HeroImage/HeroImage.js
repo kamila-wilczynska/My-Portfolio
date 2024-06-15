@@ -1,7 +1,6 @@
 import React from "react";
 import "./HeroImage.css"
-import backgroundImage from "../../components/assets/images/project.png"; // Adjust the path accordingly
-
+import backgroundImage from "../../components/assets/images/project.png"; 
 
 function HeroImage(props) {
 	return (
