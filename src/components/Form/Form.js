@@ -22,7 +22,7 @@ function Form() {
 					<textarea id="message" name="message" rows="6" placeholder="Type your message" aria-label="Type your message" required></textarea>
 				</div>
 				<button className="btn" type="submit">Submit</button>
-				<input type="hidden" name="_next" value="http://localhost:3000/thankyou/thanks.html"></input>
+				{/* <input type="hidden" name="_next" value="http://localhost:3000/thankyou/thanks.html"></input> */}
 
 			</form>
 		</div>
