@@ -54,7 +54,7 @@ function Form() {
 						title="Thank You"
 					></iframe>
 					<p>
-						<a href="https://giphy.com/gifs/computer-done-typing-3ohryiYkE0DVwdLAys">via GIPHY</a>
+						<a href="https://giphy.com/gifs/computer-done-typing-3ohryiYkE0DVwdLAys"> </a>
 					</p>
 				</div>
 			) : (

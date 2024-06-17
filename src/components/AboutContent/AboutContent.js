@@ -1,8 +1,7 @@
 import "./AboutContent.css";
 import { Link } from "react-router-dom";
 import myPicture from "../assets/images/photoCV-copy.jpg";
-
-import project1 from "../assets/images/chaos.png"; // Replace with your actual image paths
+import project1 from "../assets/images/chaos.png";
 import project2 from "../assets/images/trello.png";
 import project3 from "../assets/images/group-project.jpg";
 import contact from "../assets/images/contact.jpg"
@@ -28,18 +27,18 @@ function AboutContent() {
 					<div className="img-container">
 						<img src={project3} alt="Project Experience" className="img img1" />
 						<img src={project2} alt="Agile Practices" className="img img2" />
-						<img src={project1} alt="Hobbies" className="img img3" />
+						<img src={project1} alt="Project Experience" className="img img3" />
 					</div>
 				</div>
 				<div className="text-right">
-					<h2>Few words about me</h2>
+					<h2>A Few words about me</h2>
 					<p className="aboutContentParagraph">
 						<span>Technical Skillset:</span> At TechNative Digital, I mastered HTML, CSS, JavaScript, React, and Node.js through hands-on experience. I tackled real-world coding challenges, debugged complex issues, and actively used tools like Git and GitHub for efficient version control.<br />
 						<span>Project Experience:</span> During the bootcamp, I participated in three group projects where we self-organized using Trello to manage our tasks effectively. This experience taught me the importance of clear communication and coordination in a development environment.<br />
 						<span>Agile Practices:</span> We adopted Agile methodologies, holding daily standups to keep our projects on track and conducting retrospectives to continuously improve our processes and outcomes. These practices helped me understand the dynamic nature of web development and the importance of adapting to changes swiftly.<br />
 						<span>Exposure to Industry Experts:</span> Each week, we had the opportunity to learn from guest speakers from the web development industry. These sessions provided invaluable insights into professional practices and emerging trends, enriching my understanding and enthusiasm for the field.<br />
-						<span>Adaptability and Problem Solving:</span> My diverse background, spanning from paramedicine to customer service, has equipped me with exceptional problem-solving skills and the ability to stay composed under pressure—traits that are invaluable in tech.
-						Team Collaboration: The bootcamp emphasized teamwork and peer learning, where I engaged in code reviews and provided feedback, fostering a collaborative learning environment. This has prepared me to thrive in team settings, contributing to and learning from collective knowledge.
+						<span>Adaptability and Problem Solving:</span> My diverse background, spanning from paramedicine to customer service, has equipped me with exceptional problem-solving skills and the ability to stay composed under pressure—traits that are invaluable in tech.<br />
+						<span>Team Collaboration:</span> The bootcamp emphasized teamwork and peer learning, where I engaged in code reviews and provided feedback, fostering a collaborative learning environment. This has prepared me to thrive in team settings, contributing to and learning from collective knowledge.
 					</p>
 				</div>
 			</div>
