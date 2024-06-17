@@ -1,25 +1,4 @@
-/* label {
-	color: white;
-	margin-bottom: 0.5rem;
-}
-
-form{
-	display: flex;
-	flex-direction: column;
-	padding: 4rem 1rem;
-	margin: auto;
-	max-width: 600px;
-}
-
-form input, form textarea {
-	margin-bottom: 1rem;
-	padding: 20px, 19px;
-	font-size: 1.2rem;
-	background: rgba(255, 255, 255, 0.1);
-	border-color: rgba(255, 255, 255, 0.1);
-	color: white;
-} */
-
+/* Form Styles */
 .form {
   max-width: 600px;
   margin: 0 auto;
@@ -56,16 +35,63 @@ textarea {
   resize: vertical;
 }
 
-button {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
+.btn{
+	width: 100%;
 }
 
-button:hover {
-  background-color: #4cae4c;
-}
+/* Thank you Message styles */
+.thank-you-message {
+	text-align: center;
+	padding: 40px 20px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 2px solid #F72798;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+	animation: fadeIn 1s ease-in-out;
+  }
+  
+  .thank-you-message h1 {
+	font-size: 2.5em;
+	color: white;
+	margin-bottom: 10px;
+  }
+  
+  .thank-you-message p {
+	font-size: 1.2em;
+	color: white;
+	margin-bottom: 20px;
+  }
+  
+  .giphy-embed {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	border-radius: 10px;
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1.5;
+	}
+  }
+
+/* Spiner Styles */
+  .spinner {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border: 3px solid rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	border-top-color: #007bff;
+	animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+	to {
+	  transform: rotate(360deg);
+	}
+  }

@@ -4,7 +4,7 @@ import Contact from "../Contact/Contact"
 import Projects from "../Projects/Projects"
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import ThabkYou from "../ThankYou/ThankYou"
+
 
 
 
@@ -19,8 +19,6 @@ function Root() {
 			<Route path="/" element={<Home />} />
 			<Route path="/projects" element={<Projects />} />
 			<Route path="/contact" element={<Contact />} />
-			<Route path="/thankyou" element={<ThabkYou />} />
-
 		</Routes>
 	);
 }
