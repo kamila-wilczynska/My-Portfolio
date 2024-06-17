@@ -39,6 +39,12 @@
 
 .social {
 	margin-top: 1rem;
+	display: flex;
+	
+}
+
+.social-left{
+	margin-left: 20px;
 }
 
 h4 {
