@@ -1,0 +1,35 @@
+.mystory {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	max-width: 1240px;
+	width: 100%;
+	margin: 50px auto;
+  }
+
+.section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 60px 0;
+  }
+
+
+  .mystoryContentParagraph {
+	padding-top: 20px;
+  }
+  .mystoryContentParagraph strong {
+	font-weight: 700;
+	color: #f72798;
+  }
+
+  .backToHome {
+	color: yellow;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.backToHome:hover {
+	text-decoration: underline;
+}

@@ -63,6 +63,10 @@ button.btn-contact {
   margin-top: 50px;
 }
 
+.yellow{
+	color: yellow;
+}
+
 @media (max-width: 900px) {
   .section {
     flex-direction: column;

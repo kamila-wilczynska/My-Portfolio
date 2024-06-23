@@ -14,7 +14,7 @@ function AboutContent() {
 				<div className="text-left">
 					<h2>Who Am I?</h2>
 					<p className="aboutContentParagraph">
-						Hello! I'm Kamila Wilczyńska, a versatile and dedicated Full Stack Web Developer currently based in London. I bring a solid foundation in both front-end and back-end technologies, sharpened through comprehensive training at TechNative Digital's Full Stack Engineer Bootcamp.
+						Hello! I'm Kamila Wilczyńska, a versatile and dedicated full stack web developer based in London. I bring a solid foundation in both front-end and back-end technologies, sharpened through comprehensive training at TechNative Digital's Full Stack Engineer Bootcamp.
 					</p>
 				</div>
 				<div className="image-right">
@@ -33,7 +33,7 @@ function AboutContent() {
 				<div className="text-right">
 					<h2>A Few words about me</h2>
 					<p className="aboutContentParagraph">
-						<span>Technical Skillset:</span> At TechNative Digital, I mastered HTML, CSS, JavaScript, React, and Node.js through hands-on experience. I tackled real-world coding challenges, debugged complex issues, and actively used tools like Git and GitHub for efficient version control.<br />
+						<span>Technical Skillset:</span> At TechNative Digital, I mastered HTML, CSS, JavaScript, React, Node.js and PostgreSQL through hands-on experience. I tackled real-world coding challenges, debugged complex issues, and actively used tools like Git and GitHub for efficient version control.<br />
 						<span>Project Experience:</span> During the bootcamp, I participated in three group projects where we self-organized using Trello to manage our tasks effectively. This experience taught me the importance of clear communication and coordination in a development environment.<br />
 						<span>Agile Practices:</span> We adopted Agile methodologies, holding daily standups to keep our projects on track and conducting retrospectives to continuously improve our processes and outcomes. These practices helped me understand the dynamic nature of web development and the importance of adapting to changes swiftly.<br />
 						<span>Exposure to Industry Experts:</span> Each week, we had the opportunity to learn from guest speakers from the web development industry. These sessions provided invaluable insights into professional practices and emerging trends, enriching my understanding and enthusiasm for the field.<br />
@@ -45,10 +45,10 @@ function AboutContent() {
 
 			<div className="section">
 				<div className="text-left">
-					<h2>More About Me</h2>
+					<h2>Outside of coding</h2>
 					<p className="aboutContentParagraph">
-						Outside of coding, I engage in activities that enhance my skills and well-being. My hobbies include traveling, which enriches my creativity; recording and editing videos, photography, and painting, which allow me to express my artistic side; and maintaining an active lifestyle through biking, skiing, and jogging or scuba diving.
-						I'm also an avid reader of biographical and popular science literature, seeking insights into the minds and achievements of pioneering figures, which inspires me to undertake the challenges.
+						My hobbies include traveling, which enriches my creativity; recording and editing videos, photography, and painting, which allow me to express my artistic side; and maintaining an active lifestyle through biking, skiing, and jogging or scuba diving.
+						I'm also an avid reader of biographical and popular science literature, seeking insights into the minds and achievements of pioneering figures, which inspires me to undertake the challenges. How does does it happened I started coding? An answer you will find <Link to="/mystory"><strong className="yellow">here</strong></Link>.
 					</p>
 				</div>
 				<div className="image-right">

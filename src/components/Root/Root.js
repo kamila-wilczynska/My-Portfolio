@@ -4,6 +4,7 @@ import Contact from "../Contact/Contact"
 import Projects from "../Projects/Projects"
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import MyStory from "../MyStory/MyStory"
 
 
 
@@ -19,6 +20,7 @@ function Root() {
 			<Route path="/" element={<Home />} />
 			<Route path="/projects" element={<Projects />} />
 			<Route path="/contact" element={<Contact />} />
+			<Route path="/mystory" element={<MyStory />} />
 		</Routes>
 	);
 }

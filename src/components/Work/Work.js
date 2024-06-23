@@ -43,6 +43,7 @@ function Work() {
 	// Filtruj dane na podstawie kategorii
 	const groupProjects = ProjectCardData.filter(project => project.category === "Group Projects");
 	const reactProjects = ProjectCardData.filter(project => project.category === "React Projects");
+	const backendProjects = ProjectCardData.filter(project => project.category === "Back-end Projects");
 	const otherProjects = ProjectCardData.filter(project => project.category === "Other Projects");
 
 	return (
@@ -76,8 +77,22 @@ function Work() {
 				))}
 			</div>
 
+			{/* React Projects Section */}
+			<h2>Back-end Projects</h2>
+			<div className="project-container">
+				{backendProjects.map((value, index) => (
+					<ProjectCard
+						key={index}
+						imgsrc={value.imgsrc}
+						title={value.title}
+						text={value.text}
+						view={value.view}
+					/>
+				))}
+			</div>
+
 			{/* Other Projects Section */}
-			<h2>React Projects</h2>
+			<h2>Other Projects</h2>
 			<div className="project-container">
 				{otherProjects.map((value, index) => (
 					<ProjectCard

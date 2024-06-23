@@ -1,16 +1,17 @@
 import React from "react";
 import Navbar from "../../reusableCoponents/Navbar/Navbar";
-import HeroImage from "../../reusableCoponents/HeroImage/HeroImage"
+import Hero from "../../reusableCoponents/Hero/Hero"
 import Footer from "../../reusableCoponents/Footer/Footer"
 // import ProjectCard from "../ProjectCard/ProjectCard"
 import Work from "../Work/Work"
+import heroImage2 from "../../components/assets/images/heroprojects.png"
 
 
 function Projects() {
 	return (
 		<div>
 			<Navbar />
-			<HeroImage heading="PROJECTS" text="see my most recents projects" />
+			<Hero heroImage={heroImage2} heading="PROJECTS" text="see my most recents projects" />
 			<Work />
 			<Footer />
 		</div>
