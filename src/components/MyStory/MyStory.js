@@ -72,7 +72,7 @@ function MyStory() {
             developing soft skills.
           </p>
 
-          <h2>Why I'll Be a Great Junior Web Developer</h2>
+          <h2>What makes me an outstanding Junior Web Developer</h2>
 
           <p className={styles.mystoryContentParagraph}>
             <strong>Passion and Curiosity:</strong> My life is driven by a
