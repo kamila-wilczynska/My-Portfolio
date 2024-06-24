@@ -1,58 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-	box-sizing: border-box;
-	margin:0;
-	padding: 0;
-	font-family: "Montserrat", sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-	background-color: black;
+  background-color: black;
 }
 
-h1, h2, h3, h4, p,a {
-	color: white;
-	text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  color: white;
+  text-decoration: none;
 }
 
-ul{
-	list-style: none;
+ul {
+  list-style: none;
 }
 
 .btn {
-	padding: 15px 35px;
-	font-size: 1.4rem;
-	text-transform: uppercase;
-	background: #F72798;
-	color: black;
-	border: 1px solid white;
-	font-weight: 600;
-	cursor: pointer;
+  padding: 15px 35px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background: #f72798;
+  color: black;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .btn-light {
-	
-	background: transparent;
-	color: white;
-
+  background: transparent;
+  color: white;
 }
 
-.btn:hover{
-	background: rgba(255, 255, 255, 0.2);
-	color: white;
-	transition: 0.3s;
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s;
 }
 
-@media screen and (max-width:640px) {
-	.btn {
-		padding: 15px 35px;
-		font-size: 1rem;
-		
-	}
-	
-	}
+@media screen and (max-width: 640px) {
+  .btn {
+    padding: 15px 35px;
+    font-size: 1rem;
+  }
+}
 
-	p{
-		line-height: 2;
-	}
+p {
+  line-height: 2;
+}

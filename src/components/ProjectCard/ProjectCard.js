@@ -1,22 +1,20 @@
 import React from "react";
-import "./ProjectCard.css"
-// import project1 from "../assets/images/project1.png"
-import { NavLink } from "react-router-dom"
-import "../ProjectCardData"
-
+import styles from "./ProjectCard.module.css";
+import { NavLink } from "react-router-dom";
 
 function ProjectCard(props) {
-	return (
-		<div className="project-card">
-			<img src={props.imgsrc} alt="project" />
-			<h2 className="project-title">{props.title}</h2>
-			<div className="project-details">
-				<p>{props.text}t</p>
-				<NavLink to={props.view} className="project-button" >Source</NavLink>
-
-			</div>
-		</div>
-	)
+  return (
+    <div className={styles.project_card}>
+      <img src={props.imgsrc} alt="project" />
+      <h2 className={styles.project_title}>{props.title}</h2>
+      <div className={styles.project_details}>
+        <p>{props.text}</p>
+        <NavLink to={props.view} className={styles.project_button}>
+          Source
+        </NavLink>
+      </div>
+    </div>
+  );
 }
 
 export default ProjectCard;

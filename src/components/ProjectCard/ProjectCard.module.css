@@ -1,0 +1,51 @@
+/* ProjectCard.module.css */
+
+.project_heading {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+  margin-top: 10px;
+}
+
+.project_container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+}
+
+.project_card {
+  background-color: #f72798;
+  padding: 1.2rem 1rem;
+}
+
+.project_card img {
+  width: 100%;
+}
+
+.project_title {
+  color: white;
+  padding: 1rem 0;
+}
+
+.project_details p {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.project_button {
+  background-color: #ebf400;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: solid 1px white;
+}
+
+@media screen and (max-width: 740px) {
+  .project_container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
