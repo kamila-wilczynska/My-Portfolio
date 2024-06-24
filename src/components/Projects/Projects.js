@@ -11,7 +11,13 @@ function Projects() {
 	return (
 		<div>
 			<Navbar />
-			<Hero heroImage={heroImage2} heading="PROJECTS" text="see my most recents projects" />
+			<Hero
+				heroImage={heroImage2}
+				heading="PROJECTS"
+				text="see my most recents projects"
+				showButtons={false}
+				showIntro={false}
+			/>
 			<Work />
 			<Footer />
 		</div>
@@ -19,3 +25,5 @@ function Projects() {
 }
 
 export default Projects;
+
+
