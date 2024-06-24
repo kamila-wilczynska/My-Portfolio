@@ -13,7 +13,7 @@ function Projects() {
       <Hero
         heroImage={heroImage2}
         heading="PROJECTS"
-        text="see my most recents projects"
+        text="see my most recent projects"
         showButtons={false}
         showIntro={false}
       />

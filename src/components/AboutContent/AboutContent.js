@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import myPicture from "../assets/images/photoCV-copy.jpg";
 import project1 from "../assets/images/chaos.png";
 import project2 from "../assets/images/trello.png";
@@ -10,6 +10,13 @@ import styles from "./AboutContent.module.css";
 import "../../index.css";
 
 function AboutContent() {
+  const navigate = useNavigate();
+
+  const handleClick = (path) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className={styles.about}>
       <div className={styles.section}>
@@ -48,7 +55,7 @@ function AboutContent() {
           </div>
         </div>
         <div className={styles.text_right}>
-          <h2>A Few words about me</h2>
+          <h2>About me</h2>
           <p className={styles.about_content_paragraph}>
             <span>Technical Skillset:</span> At TechNative Digital, I mastered
             HTML, CSS, JavaScript, React, Node.js and PostgreSQL through
@@ -98,11 +105,14 @@ function AboutContent() {
             through biking, skiing, and jogging or scuba diving. I'm also an
             avid reader of biographical and popular science literature, seeking
             insights into the minds and achievements of pioneering figures,
-            which inspires me to undertake the challenges. How does does it
-            happened I started coding? An answer you will find{" "}
-            <Link to="/mystory">
-              <strong className={styles.yellow}>here</strong>
-            </Link>
+            which inspires me to undertake the challenges. How did I start
+            coding? You can find the answer{" "}
+            <strong
+              className={styles.yellow}
+              onClick={() => handleClick("/mystory")}
+            >
+              here
+            </strong>
             .
           </p>
         </div>

@@ -42,8 +42,11 @@ function Form() {
     <div className={styles.form}>
       {isSubmitted ? (
         <div className={styles.thank_you_message}>
-          <h1>Thank You!</h1>
-          <p>Your form has been submitted successfully.</p>
+          <h1>Thanks for getting in touch!</h1>
+          <p>
+            I am excited to review your submission and will get back to you
+            soon.
+          </p>
           <iframe
             src="https://giphy.com/embed/3ohryiYkE0DVwdLAys"
             width="480"

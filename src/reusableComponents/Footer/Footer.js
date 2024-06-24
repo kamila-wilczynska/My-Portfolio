@@ -39,7 +39,7 @@ function Footer() {
         <div className={styles.right}>
           <h4>About me</h4>
           <p>
-            Here is Kamila, junior web developer, career-changer. I enjoy
+            Hi, I'm Kamila, junior web developer, career-changer. I enjoy
             discussing projects and design.
           </p>
         </div>

@@ -13,7 +13,7 @@ function Contact() {
       <Hero
         heroImage={heroImage3}
         heading="CONTACT ME"
-        text="I would love to hear from tou"
+        text="I would love to hear from you"
         showButtons={false}
         showIntro={false}
       />

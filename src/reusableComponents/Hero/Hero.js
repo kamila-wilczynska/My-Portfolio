@@ -2,7 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Hero.module.css";
 
-function Hero({ heroImage, heading, text, showButtons = true, showIntro = true }) {
+function Hero({
+  heroImage,
+  heading,
+  text,
+  showButtons = true,
+  showIntro = true,
+}) {
   return (
     <div className={styles.hero}>
       <div className={styles.mask}>
@@ -13,8 +19,15 @@ function Hero({ heroImage, heading, text, showButtons = true, showIntro = true }
           <p>{text}</p>
           {showButtons && (
             <div>
-              <Link to="/projects" className={styles.btn}>Projects</Link>
-              <Link to="/contact" className={`${styles.btn} ${styles.btn_light}`}>Contact</Link>
+              <Link to="/projects" className={styles.btn}>
+                Projects
+              </Link>
+              <Link
+                to="/contact"
+                className={`${styles.btn} ${styles.btn_light}`}
+              >
+                Contact
+              </Link>
             </div>
           )}
         </div>
