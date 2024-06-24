@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../../reusableCoponents/Navbar/Navbar";
-import Hero from "../../reusableCoponents/Hero/Hero";
-import Footer from "../../reusableCoponents/Footer/Footer";
+import Navbar from "../../reusableComponents/Navbar/Navbar";
+import Hero from "../../reusableComponents/Hero/Hero";
+import Footer from "../../reusableComponents/Footer/Footer";
 import { Link } from "react-router-dom";
 import myStoryBackgroundImage2 from "../../components/assets/images/Bez nazwy-1.jpg";
 import styles from "./MyStory.module.css";
