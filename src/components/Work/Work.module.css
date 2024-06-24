@@ -47,6 +47,14 @@
   }
 }
 
+@media screen and (min-width: 744px) and (max-width: 1250px) {
+  .project_container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 .work_container h2 {
   text-align: center;
   margin-bottom: 20px;

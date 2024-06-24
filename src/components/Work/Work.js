@@ -30,7 +30,7 @@ function Work() {
             title={value.title}
             text={value.text}
             view={value.view}
-			live={value.live}
+            live={value.live}
           />
         ))}
       </div>
@@ -45,7 +45,7 @@ function Work() {
             title={value.title}
             text={value.text}
             view={value.view}
-			live={value.live}
+            live={value.live}
           />
         ))}
       </div>
@@ -60,7 +60,7 @@ function Work() {
             title={value.title}
             text={value.text}
             view={value.view}
-			live={value.live}
+            live={value.live}
           />
         ))}
       </div>
@@ -75,7 +75,7 @@ function Work() {
             title={value.title}
             text={value.text}
             view={value.view}
-			live={value.live}
+            live={value.live}
           />
         ))}
       </div>
