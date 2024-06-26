@@ -99,14 +99,13 @@ function AboutContent() {
         <div className={styles.text_left}>
           <h2>Outside of coding</h2>
           <p className={styles.about_content_paragraph}>
-            My hobbies include traveling, which enriches my creativity;
-            recording and editing videos, photography, and painting, which allow
-            me to express my artistic side; and maintaining an active lifestyle
-            through biking, skiing, and jogging or scuba diving. I'm also an
-            avid reader of biographical and popular science literature, seeking
-            insights into the minds and achievements of pioneering figures,
-            which inspires me to undertake the challenges. How did I start
-            coding? You can find the answer{" "}
+            I have hobbies that keep me creative and active. Traveling gives me
+            new ideas. I love recording and editing videos, taking photos, and
+            painting to show my artistic side. I also stay active by biking,
+            skiing, jogging, and scuba diving. I also love reading biographies
+            and popular science books. They give me valuable insights into the
+            lives and achievements of important people and inspire me to take on
+            new challenges. Want to know how I started coding? Find the answer{" "}
             <strong
               className={styles.yellow}
               onClick={() => handleClick("/mystory")}
