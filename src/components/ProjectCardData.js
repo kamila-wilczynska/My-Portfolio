@@ -7,6 +7,7 @@ import otherGrid from "./assets/images/grid2.png";
 import countryApi2 from "./assets/images/countryImage2.png";
 import countryApi1 from "./assets/images/countries1.png";
 import dbimage from "./assets/images/db_challenge.png";
+import project3 from "./assets/images/project3.png";
 
 const ProjectCardData = [
   {
@@ -49,6 +50,14 @@ const ProjectCardData = [
     text: "This is a fun and engaging single-page application showcasing tailor-selected animals. Developed through live pair-programming. This project leverages React to deliver a seamless user experience. Users can search for specific animals using an input field and reveal additional animals with a show more button, displaying up to the full list. Key features include a dynamic counter, JSON data manipulation, and reusable React components.",
     view: "https://github.com/kamila-wilczynska/animal-chaos",
     live: "https://chaos-animals.netlify.app/",
+  },
+  {
+    category: "Group Projects",
+    imgsrc: project3,
+    title: "Hoax Haven",
+    text: "This is a collaborative group project, aiming to create a dynamic platform for publishing fictional news. Utilizing a tech stack comprising Express, PostgreSQL, React, JavaScript, and CSS. Our team focused on robust backend functionality alongside responsive frontend development.Backend: Established database schemas, developed APIs for user and article management, and ensured secure authentication practices. We were integrating ready frontend with the backend to handle data efficiently and display it interactively.",
+    view: "https://github.com/technative-academy/HoaxHaven?tab=readme-ov-file#description",
+    live: "https://hoax-haven.netlify.app/",
   },
   {
     category: "Other Projects",

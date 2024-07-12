@@ -26,7 +26,15 @@ function AboutContent() {
             Hello! I'm Kamila Wilczyńska, a versatile and dedicated full stack
             web developer based in London. I bring a solid foundation in both
             front-end and back-end technologies, sharpened through comprehensive
-            training at TechNative Digital's Full Stack Engineer Bootcamp.
+            training at TechNative Digital's Full Stack Engineer Bootcamp. Do
+            you want to know how I started coding? Find the answer{" "}
+            <strong
+              className={styles.yellow}
+              onClick={() => handleClick("/mystory")}
+            >
+              here
+            </strong>
+            .
           </p>
         </div>
         <div className={styles.image_right}>
@@ -57,7 +65,7 @@ function AboutContent() {
         <div className={styles.text_right}>
           <h2>About me</h2>
           <p className={styles.about_content_paragraph}>
-            <span>Technical Skillset:</span> At TechNative Digital, I mastered
+            <span>Technical Skillset:</span> At TechNative Digital, I learned
             HTML, CSS, JavaScript, React, Node.js and PostgreSQL through
             hands-on experience. I tackled real-world coding challenges,
             debugged complex issues, and actively used tools like Git and GitHub
@@ -105,14 +113,7 @@ function AboutContent() {
             skiing, jogging, and scuba diving. I also love reading biographies
             and popular science books. They give me valuable insights into the
             lives and achievements of important people and inspire me to take on
-            new challenges. Want to know how I started coding? Find the answer{" "}
-            <strong
-              className={styles.yellow}
-              onClick={() => handleClick("/mystory")}
-            >
-              here
-            </strong>
-            .
+            new challenges.
           </p>
         </div>
         <div className={styles.image_right}>
