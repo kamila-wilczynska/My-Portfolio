@@ -8,6 +8,7 @@ import countryApi2 from "./assets/images/countryImage2.png";
 import countryApi1 from "./assets/images/countries1.png";
 import dbimage from "./assets/images/db_challenge.png";
 import project3 from "./assets/images/project3.png";
+import wilkowyja from "./assets/images/wilkowyja.png";
 
 const ProjectCardData = [
   {
@@ -92,6 +93,15 @@ const ProjectCardData = [
     text: "This project involved designing and implementing a relational database for a blog site and an e-commerce store. For the blog, I created tables for authors, blog posts, and tags, managing one-to-many and many-to-many relationships. I learned to define primary keys, foreign keys, and constraints, and wrote SQL queries to retrieve and manipulate data. For the e-commerce store, I designed tables for sellers and products, handling similar relational structures. This project enhanced my skills in database design, SQL query writing, and understanding complex data relationships and constraints.",
     view: "https://github.com/kamila-wilczynska/Countries-API-Form",
     live: "https://countries-api-form.onrender.com/",
+  },
+  {
+    category: "React",
+    imgsrc: wilkowyja,
+    title: "Wilkowyja",
+    Technologies: "React, CSS, EmailJs",
+    text: "The Wilkowyja Agrotourism website is a fully responsive platform designed to showcase the beauty and services of a countryside retreat. The site features a captivating homepage, an extensive photo gallery, and detailed information about local attractions. It also includes a user-friendly reservation form and comprehensive payment information, ensuring seamless booking experiences. This project, aimed at enhancing my web development skills, emphasizes modern design and functionality to attract direct bookings, bypassing third-party commissions. Explore the Wilkowyja website to see how thoughtful design and efficient coding can elevate a real-world business.",
+    view: "https://github.com/kamila-wilczynska/Wilkowyja",
+    live: "https://wilkowyja.netlify.app/",
   },
 ];
 
