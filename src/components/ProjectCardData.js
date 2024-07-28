@@ -95,7 +95,7 @@ const ProjectCardData = [
     live: "https://countries-api-form.onrender.com/",
   },
   {
-    category: "React",
+    category: "React Projects",
     imgsrc: wilkowyja,
     title: "Wilkowyja",
     Technologies: "React, CSS, EmailJs",
