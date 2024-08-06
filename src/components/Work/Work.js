@@ -4,7 +4,7 @@ import ProjectCardData from "../ProjectCardData";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 function Work() {
-  // Filtruj dane na podstawie kategorii
+  // Filtruj data based on category
   const groupProjects = ProjectCardData.filter(
     (project) => project.category === "Group Projects"
   );
