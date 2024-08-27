@@ -9,6 +9,7 @@ import countryApi1 from "./assets/images/countries1.png";
 import dbimage from "./assets/images/db_challenge.png";
 import project3 from "./assets/images/project3.png";
 import wilkowyja from "./assets/images/wilkowyja.png";
+import scheduler from "./assets/images/scheduler.png"
 
 const ProjectCardData = [
   {
@@ -102,6 +103,15 @@ const ProjectCardData = [
     text: "The Wilkowyja Agrotourism website is a fully responsive platform designed to showcase the beauty and services of a countryside retreat. The site features a captivating homepage, an extensive photo gallery, and detailed information about local attractions. It also includes a user-friendly reservation form and comprehensive payment information, ensuring seamless booking experiences. This project, aimed at enhancing my web development skills, emphasizes modern design and functionality to attract direct bookings, bypassing third-party commissions. Explore the Wilkowyja website to see how thoughtful design and efficient coding can elevate a real-world business.",
     view: "https://github.com/kamila-wilczynska/Wilkowyja",
     live: "https://wilkowyja.netlify.app/",
+  },
+  {
+    category: "React Projects",
+    imgsrc: scheduler,
+    title: "Scheduler App",
+    Technologies: "React, CSS, DevExtreme, Firebase",
+    text: "This is a web-based calendar application built using React and DevExtreme React Scheduler. It allows users to manage events, appointments, and schedules efficiently. The app supports creating, updating, and deleting events with a modern and user-friendly interface. It also includes Firebase integration for real-time data storage and retrieval, ensuring that events are synced across devices. The application is localized to support the Polish language, providing a seamless experience for Polish-speaking users.",
+    view: "https://github.com/kamila-wilczynska/Scheduler",
+    live: "https://kalendarz-test.netlify.app/",
   },
 ];
 
